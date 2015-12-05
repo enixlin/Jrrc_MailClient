@@ -65,6 +65,7 @@ public class Window_Login {
 		frame.getContentPane().add(textField);
 		textField.setColumns(10);
 		
+		//°´ÏÂµÇÂ¼°´Å¥
 		JButton btnNewButton = new JButton("\u767B  \u5F55");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
