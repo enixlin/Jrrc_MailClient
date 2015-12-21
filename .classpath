@@ -13,5 +13,7 @@
 	<classpathentry kind="lib" path="lib/httpmime-4.5.1.jar"/>
 	<classpathentry kind="lib" path="lib/jna-4.1.0.jar"/>
 	<classpathentry kind="lib" path="lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/Applet.jar" sourcepath="lib/Applet-src.zip"/>
+	<classpathentry exported="true" kind="lib" path="lib/Applet-src.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

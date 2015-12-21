@@ -119,7 +119,7 @@ public class Window_Main {
 			}
 		});
 		comboBox_1.setModel(new DefaultComboBoxModel(new String[] {"按时间查询", "按关键字查询"}));
-		comboBox_1.setSelectedIndex(1);
+		comboBox_1.setSelectedIndex(0);
 		comboBox_1.setBounds(8, 245, 204, 27);
 		panel.add(comboBox_1);
 		
