@@ -72,7 +72,7 @@ public class Window_Main {
 		frame.getContentPane().add(tabbedPane);
 		
 		JPanel panel = new JPanel();
-		tabbedPane.addTab("New tab", null, panel, null);
+		tabbedPane.addTab("邮件列表", null, panel, null);
 		panel.setLayout(null);
 		
 		JList<String> list = new JList<String>();
@@ -119,6 +119,7 @@ public class Window_Main {
 			}
 		});
 		comboBox_1.setModel(new DefaultComboBoxModel(new String[] {"按时间查询", "按关键字查询"}));
+		comboBox_1.setSelectedIndex(1);
 		comboBox_1.setBounds(8, 245, 204, 27);
 		panel.add(comboBox_1);
 		

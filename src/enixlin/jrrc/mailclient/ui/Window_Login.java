@@ -65,7 +65,7 @@ public class Window_Login {
 		frame.getContentPane().add(textField);
 		textField.setColumns(10);
 		
-		//°´ÏÂµÇÂ¼°´Å¥
+		//é‚®ä»¶æŸ¥è¯¢æŒ‰é’®
 		JButton btnNewButton = new JButton("\u767B  \u5F55");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -80,7 +80,7 @@ public class Window_Login {
 		frame.getContentPane().add(btnNewButton_1);
 		
 		passwordField = new JPasswordField();
-		passwordField.setFont(new Font("ËÎÌå", Font.PLAIN, 24));
+		passwordField.setFont(new Font("ï¿½ï¿½ï¿½ï¿½", Font.PLAIN, 24));
 		passwordField.setBounds(141, 88, 214, 21);
 		frame.getContentPane().add(passwordField);
 	}
