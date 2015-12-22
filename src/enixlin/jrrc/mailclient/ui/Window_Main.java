@@ -72,16 +72,16 @@ public class Window_Main {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setBounds(new Rectangle(0, 0, 1000, 600));
-		frame.setSize(new Dimension(1000, 606));
-		frame.setBounds(100, 100, 928, 606);
+		frame.setBounds(new Rectangle(0, 0, 1200, 600));
+		frame.setSize(new Dimension(1085, 606));
+		frame.setBounds(10, 10, 1200, 606);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 
 		JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
 		tabbedPane.setLocation(10, 10);
 		tabbedPane.setAlignmentX(Component.LEFT_ALIGNMENT);
-		tabbedPane.setSize(new Dimension(912, 568));
+		tabbedPane.setSize(new Dimension(1200, 568));
 		frame.getContentPane().add(tabbedPane);
 
 		JPanel panel = new JPanel();
@@ -125,7 +125,7 @@ public class Window_Main {
 		panel.add(list);
 
 		JScrollPane scrollPane = new JScrollPane();
-		scrollPane.setBounds(224, 6, 661, 510);
+		scrollPane.setBounds(224, 6, 949, 510);
 		panel.add(scrollPane);
 
 		table = new JTable();
